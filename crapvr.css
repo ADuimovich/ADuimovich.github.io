@@ -1,0 +1,110 @@
+body {
+    background-image: url("alex.jpg");
+    background-color: #cccccc;
+    margin: 0;
+    width: 100%;
+}
+
+#myname{
+	font-family: 'Teko', sans-serif;
+}
+
+#mytext{
+	font-family: 'Teko', sans-serif;
+	font-size: 65px;
+}
+
+#box{
+	background-color: white;
+	width: 100%;
+	height: 600px;
+	margin-left: 0;
+}
+
+#text2{
+	font-family: 'Teko', sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 50px;
+}
+
+
+div {
+	width: 100px;
+	height: 50px;
+	margin-left: 650px;
+	background-color: black;
+
+}
+
+
+h1 {
+	font-family: "gobold";
+	font-size: 100px;
+	color: white;
+	text-align: center;
+
+}
+
+p {
+
+	font-size: 42px;
+	color: white;
+	text-align: center;
+}
+
+
+
+ul	{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+
+}
+
+#menu {
+	margin: 0;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+
+}
+
+
+
+li {
+	float: right;
+}
+
+li a {
+	 display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #b745e1;
+}
+
+img{width: 560px; 
+	height: 315px;
+	margin-left: 125px;
+
+
+
+
+
+}
+
+h2 {margin-left: 125px;
+
+}
+
+a {
+	font-family: gobold;
+}
+
