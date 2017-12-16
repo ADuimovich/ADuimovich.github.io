@@ -1,0 +1,291 @@
+body {
+    background-image: url("alex.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    width: 100%;
+
+}
+
+#menu {
+	margin: 0;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+
+}
+
+#skills{
+	margin: auto;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+}
+
+#myname{
+	font-family: 'Teko', sans-serif;
+	font-size: 100px;
+	text-align: center;
+	color: white;
+}
+
+#mytext{
+	font-family: 'Teko', sans-serif;
+	font-size: 65px;
+	color: white;
+	text-align: center;
+}
+
+#about{
+	background-color: white;
+	width: 100%;
+	margin-left: 0;
+}
+
+#andra {
+	width: 100%;
+	height: 250px;
+	background-color: black;
+
+}
+
+#footer {
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	margin: 0;
+	
+
+}
+
+#text2{
+	font-family: 'Teko', sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 50px;
+}
+
+#black-box{
+	width: 100px;
+	height: 50px;
+	margin-left: 650px;
+	border-radius: 50px;
+	background-color: black;
+
+}
+
+#black-box:hover{
+	background-color: white;
+}
+
+#knapp{
+	font-family: 'Teko', sans-serif;
+	color: white;
+	font-size: 35px;
+	text-align: center;
+
+}
+
+#knapp:hover{
+	color: black;
+}
+
+#more{
+	width: 150px;
+	height: 30px;
+	margin: auto;
+	border-radius: 50px;
+	background-color: black;
+}
+
+#more:hover{
+	background-color: white;
+	
+}
+
+#knapp2{
+	font-family: 'Teko', sans-serif;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+#knapp2:hover{
+	color: black;
+}
+
+#text3{
+	color: black;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#text4{
+	color: black;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+
+#text5{
+	font-family: 'Teko', sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 50px;
+}
+
+#text6{
+	font-family: 'Teko', sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 50px;
+}
+
+
+#pics{
+	margin-left: 400px;
+}
+
+#bild1{
+	width:	30%;
+	height: 30%;
+}
+
+#bild2{
+	width:	30%;
+	height: 30%;
+}
+
+
+
+#skills{
+	width: 100%;
+	margin-left: 0;
+	background-color: #f2f2f2;
+}
+
+
+		/* the menu */
+
+ul	{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+
+
+h2 {
+font-family: 'Teko', sans-serif;
+
+}
+
+a {
+	font-family: 'Teko', sans-serif;
+}
+
+h4 {
+	font-family: 'Poppins', sans-serif;
+}
+
+p {
+	font-family: 'Poppins', sans-serif;
+}
+
+.container{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#boxes{
+	margin-top: 20px;
+	margin: auto;
+}
+
+#boxes .box{
+	float: left;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+}
+
+
+
+.fa{
+	color: #454545;
+}
+
+#info{
+	text-align: center;
+}
+
+#contact{
+	background-color: white;
+	width: 100%
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #ffffff;
+    color:	black;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+	width: 90%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+
